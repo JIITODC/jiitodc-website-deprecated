@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 5;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	background: #222;
+	font-family: 'Andale Mono', sans-serif;
+	font-size: 18px;
+}
+
+p {
+	color: #ffffff;
+}
+
+/*Header*/
+.header {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 300%;
+	color: #ffffff;
+	text-align: center;
+}
+
+/*Introduction*/
+.intro {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+.intro svg#leaf {
+	display: block;
+	width: 240px;
+	height: 240px;
+	margin: 0 auto 50px;
+}
+
+.intro h1 {
+	font-size: 400%;
+	color: #ffffff;
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+}
+
+.intro p {
+	text-align: center;
+	font-size: 7em;
+	margin: 20px 0 20px 0;
+}
+
+#leaf {
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+#leaf:hover {
+	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
+}
+
+/*About*/
+.about {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	overflow: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.left {
+	flex: 100%;
+	padding: 5px;
+}
+
+.right {
+	flex: 100%
+	padding: 5px;
+}
+
+.octocat {
+	width: 100%;
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+.octocat:hover{
+	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
+}
+@media screen and (min-width: 401px) {
+	.left {
+		flex: 50%;
+		padding: 5px;
+	}
+	.right {
+		flex: 50%;
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 701px) {
+	.left {
+		flex: 33%;
+		padding: 5px;
+	}
+	.right {
+		flex: 66%;
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 1001px) {
+	.left {
+		flex: 20%;
+		padding: 5px;
+	}
+	.right {
+		flex: 80%;
+		padding: 5px;
+	}
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.font-icon {
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
+}
