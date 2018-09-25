@@ -90,8 +90,15 @@ p {
 
 .octocat {
 	width: 100%;
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }
 
+.octocat:hover{
+	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
+}
 @media screen and (min-width: 401px) {
 	.left {
 		flex: 50%;
