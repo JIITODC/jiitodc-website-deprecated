@@ -5,6 +5,7 @@
 }
 
 body {
+	bgcolor="pink";
 	position: relative;
 	background: #222;
 	font-family: 'Andale Mono', sans-serif;
