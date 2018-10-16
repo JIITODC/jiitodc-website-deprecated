@@ -31,6 +31,7 @@ p {
 	flex-flow: column nowrap;
 	justify-content: center;
 }
+
 .intro svg#leaf {
 	display: block;
 	width: 240px;
@@ -52,13 +53,15 @@ p {
 }
 
 #leaf {
-	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 
 #leaf:hover {
+	filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 }
 
@@ -84,26 +87,30 @@ p {
 }
 
 .right {
-	flex: 100%
+	flex: 100%;
 	padding: 5px;
 }
 
 .octocat {
 	width: 100%;
-	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 
-.octocat:hover{
+.octocat:hover {
+	filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 }
+
 @media screen and (min-width: 401px) {
 	.left {
 		flex: 50%;
 		padding: 5px;
 	}
+
 	.right {
 		flex: 50%;
 		padding: 5px;
@@ -115,6 +122,7 @@ p {
 		flex: 33%;
 		padding: 5px;
 	}
+
 	.right {
 		flex: 66%;
 		padding: 5px;
@@ -126,6 +134,7 @@ p {
 		flex: 20%;
 		padding: 5px;
 	}
+
 	.right {
 		flex: 80%;
 		padding: 5px;
@@ -134,13 +143,13 @@ p {
 
 /*Footer*/
 footer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 
 .font-icon {
-  font-size: 30px;
-  color: #fff;
-  padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	padding: 10px;
 }
