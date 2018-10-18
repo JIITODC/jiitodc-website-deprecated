@@ -1,6 +1,9 @@
 
 ## JIIT Open Dev Circle Website
 
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+![PRs](https://img.shields.io/badge/PR%27s%20Welcome--green.svg)
+
 A simple website for JODC using html,css and javascript.
 
 JIIT Open Dev Circle is an technical hub of Jaypee Institute of Information Technology, Noida Sector-128 promoting open source culture among the students.
