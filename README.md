@@ -2,7 +2,7 @@
 ## JIIT Open Dev Circle Website
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]
+![PRs](https://img.shields.io/badge/PR%27s%20Welcome--green.svg)
 
 A simple website for JODC using html,css and javascript.
 
