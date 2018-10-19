@@ -26,7 +26,7 @@ p {
 /*Introduction*/
 .intro {
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -152,4 +152,16 @@ footer {
 	font-size: 30px;
 	color: #fff;
 	padding: 10px;
+}
+.social_buttons{
+color: #cec3c1;
+}
+.body_text{
+	color: #98cbb4;
+}
+abbr{
+	text-decoration: none;
+}
+.heading{
+	color: #d2d6ef;
 }
