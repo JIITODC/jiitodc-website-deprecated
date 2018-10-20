@@ -59,6 +59,7 @@ p {
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 	width:35%;
+	margin:0 auto 50px;
 }
  
 .intro #leaf:hover {
