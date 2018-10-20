@@ -10,3 +10,7 @@ typewriter.typeString('JODC')
     .typeString('JIIT Open Dev Circle ')
 
     .start();
+    
+AOS.init({
+  duration: 1200,
+});
