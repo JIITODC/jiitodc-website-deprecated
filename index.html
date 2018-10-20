@@ -6,13 +6,36 @@
 		<link rel="icon" type="image/ico" href="images/logo.jpg"/>
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Courgette|Roboto" rel="stylesheet">
-    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 		<script type="txt/javascript" src="js/custom.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
 	</head>
 
 <body>
 
-	<div class="container">
+	<div class="container-float">
+		<div class="topnav" id="myTopnav">
+			<div class="dropdown active">
+			<button class="dropbtn"<a href="#about">About Us</a>
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href ="#members">Members</a>
+					<a href ="#started">How We Started</a>
+					<a href ="#vision">Vision</a>
+					<a href ="#codeofconduct">Code of Conduct</a></div>
+			</div>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href ="#events">Events</a>
+	 <a href ="#resources">Resources</a>
+	 <a href ="#gallery">Gallery</a>
+	 <a href ="#contact">Contact Us</a>
+		</div>
 
 		<div class="intro">
 			<svg id="leaf" viewBox="0 0 100 100" width="1400" height="1400">
@@ -20,20 +43,22 @@
 				<circle cx="50" cy="50" r="10" stroke="white" stroke-width="4" fill="white" />
 				<polygon points="50,50 20,80 20,80 50,90  80,80" style="fill:white;stroke-width:1" />
 		  	</svg>
-			  
-			<div class="topnav">
+
+
+
+
+	<!--		<div class="topnav">
 			  	<a href ="#about">About Us</a>
-				<a href ="#news">News</a>	
-				<a href ="#projects">Projects</a>		
-				<a href ="#events">Events</a>	
-				<a href ="#resources">Resources</a>	
+				   <a href ="#projects">Projects</a>
+				   <a href ="#events">Events</a>
+				<a href ="#resources">Resources</a>
 				<a href ="#codeofconduct">Code of Conduct</a>
 				<a href ="#members">Members</a>
-				<a href ="#started">How We Started</a>		
+				<a href ="#started">How We Started</a>
 				<a href ="#vision">Vision</a>
 				<a href ="#gallery">Gallery</a>
 				<a href ="#contact">Contact Us</a>
-			</div>
+			</div>-->
 			<h1 id="head-text">jodc</h1>
 		</div>
 
@@ -62,200 +87,200 @@
 
 		<div class="news" id="news">
 			<h2 class="header">News</h2>
-	
+
 			<div class="row">
-	
+
 				<div class="left">
 					<img src="images/octocat.png" alt="Octocat" class="octocat">
 				</div>
-	
+
 				<div class="right">
 					<p>News JODC!</p>
 					<p>Broadcasting Soon...</p>
 					<p>Stay connected with us!</p>
 				</div>
-	
+
 			</div>
-	
+
 		</div>
-	
+
 		<div class="projects" id="projects">
 				<h2 class="header">Projects</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Projects JODC!</p>
 						<p>Revealing Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
         <div class="events" id="events">
 				<h2 class="header">Events</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Events JODC!</p>
 						<p>Announcing Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="resources" id="resources">
 				<h2 class="header">Resources</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Resources JODC!</p>
 						<p>Coming Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="codeofconduct" id="codeofconduct">
 				<h2 class="header">Code of Conduct</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Code of Conduct JODC!</p>
 						<p>Coming Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="members" id="members">
 				<h2 class="header">Memberss</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Members JODC!</p>
 						<p>Updating Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="started" id="started">
 				<h2 class="header">How We Started</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>How We Started JODC!</p>
 						<p>Telling Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="vision" id="vision">
 				<h2 class="header">Vision</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Vision JODC!</p>
 						<p>Showing Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="gallery" id="gallery">
 				<h2 class="header">Gallery</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Gallery JODC!</p>
 						<p>Showing Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
 
 		<div class="contact" id="contact">
 				<h2 class="header">Contact Us</h2>
-		
+
 				<div class="row">
-		
+
 					<div class="left">
 						<img src="images/octocat.png" alt="Octocat" class="octocat">
 					</div>
-		
+
 					<div class="right">
 						<p>Contacts JODC!</p>
 						<p>Coming Soon...</p>
 						<p>Stay connected with us!</p>
 					</div>
-		
+
 				</div>
-		
+
 		</div>
-		
+
 		<footer id="contact">
 		<a href="https://github.com/JIITODC"><i class="fab fa-github-square font-icon"></i></a>
 		<a href="https://www.facebook.com/jiitodc/"> <i class="fab fa-facebook-square font-icon"></i></a>
 		<a href="https://discord.gg/hu28JZ3"><i class="fab fa-discord font-icon"></i></a>
         <a href="https://www.linkedin.com/company/jodc/"> <i class="fab fa-linkedin font-icon"></i></a>
-		<a href="https://twitter.com/jiitodc"> <i class="fab fa-twitter-square font-icon"></i></a>				
+		<a href="https://twitter.com/jiitodc"> <i class="fab fa-twitter-square font-icon"></i></a>
 	</footer>
 
 	</div>
