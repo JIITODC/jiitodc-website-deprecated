@@ -6,7 +6,7 @@
 
 body {
 	position: relative;
-	background: #222;
+	background: rgb(129, 138, 180);
 	font-family: 'Andale Mono', sans-serif;
 	font-size: 18px;
 }
@@ -52,19 +52,19 @@ p {
 	margin: 20px 0 20px 0;
 }
 
-#leaf {
+.intro #leaf {
 	filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
 	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
+	width:35%;
 }
-
-#leaf:hover {
-	filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
-	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
+ 
+.intro #leaf:hover {
+	filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.80));
+	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.80));
 }
-
 /*About*/
 .about {
 	width: 100%;
