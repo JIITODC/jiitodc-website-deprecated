@@ -6,7 +6,7 @@
 
 body {
 	position: relative;
-	background-color: #2c2c2c;
+	background: rgb(129, 138, 180);
 	font-family: 'Andale Mono', sans-serif;
 	font-size: 18px;
 }
@@ -31,12 +31,13 @@ p {
 	flex-flow: column nowrap;
 	justify-content: center;
 }
-.intro svg#leaf {
+
+.intro #leaf {
 	display: block;
 	width: 240px;
 	height: 240px;
 	margin: 0 auto 50px;
-}
+}	
 
 .intro h1 {
 	font-size: 400%;
@@ -49,41 +50,19 @@ p {
 	text-align: center;
 	font-size: 7em;
 	margin: 20px 0 20px 0;
-	
 }
 
-.workshops img{
-	margin: 50px;
-	display: inline-flex; 
-	align-content: center;
-	width:25%;
-	padding: 10px;
-
-}
-
-.workshops img:hover{
-	opacity:0.7;
-	-webkit-filter: drop(15px 0px 15px rgba(255, 255, 255, 0.80));
-
-}
-
-.workshops h1{
-	font-size: 400%;
-	text-align: center;
-	color: whitesmoke;
-	font-family: 'Cabin Sketch',cursive;
-
-}
-
-
-#leaf {
-	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+.intro #leaf {
+	filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
+	width:35%;
 }
-
-#leaf:hover {
+ 
+.intro #leaf:hover {
+	filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 }
 
@@ -109,26 +88,30 @@ p {
 }
 
 .right {
-	flex: 100%
+	flex: 100%;
 	padding: 5px;
 }
 
 .octocat {
 	width: 100%;
-	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	filter: drop-shadow(0px 0px 15px rgba(255, 255, 255,));
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 
-.octocat:hover{
+.octocat:hover {
+	filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 }
+
 @media screen and (min-width: 401px) {
 	.left {
 		flex: 50%;
 		padding: 5px;
 	}
+
 	.right {
 		flex: 50%;
 		padding: 5px;
@@ -140,6 +123,7 @@ p {
 		flex: 33%;
 		padding: 5px;
 	}
+
 	.right {
 		flex: 66%;
 		padding: 5px;
@@ -151,6 +135,7 @@ p {
 		flex: 20%;
 		padding: 5px;
 	}
+
 	.right {
 		flex: 80%;
 		padding: 5px;
@@ -159,13 +144,13 @@ p {
 
 /*Footer*/
 footer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 
 .font-icon {
-  font-size: 30px;
-  color: #fff;
-  padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	padding: 10px;
 }
