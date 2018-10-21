@@ -32,10 +32,10 @@ p {
 	position: fixed;
 	top: 0;
 	text-align: center;
+	padding: 15px;
 }
 
 .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -97,105 +97,18 @@ p {
 }
 
 /*About*/
-.about {
+.nav-sections {
 	width: 100%;
 	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*News*/
-.news {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Projects*/
-.projects {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Events*/
-.events {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Resources*/
-.resources {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Code of conduct*/
-.codeofconduct {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Members*/
-.members {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*How We Started*/
-.started {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Vision*/
-.vision {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Gallery*/
-.gallery {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*Contact*/
-.contact {
-	width: 100%;
-	height: 500px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
 }
 
+.nav-sections:nth-child(odd) {
+	background-color: #333;
+}
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -267,4 +180,14 @@ footer {
   font-size: 30px;
   color: #fff;
   padding: 10px;
+}
+
+.copy-right {
+	width: 50%;
+	float: left;
+	padding: 15px;
+}
+.social {
+	width: 50%;
+	float: right;
 }
