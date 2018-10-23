@@ -137,7 +137,7 @@
 		</div>
 
 		<div class="members" id="members">
-			<h2 class="header">Memberss</h2>
+			<h2 class="header">Members</h2>
 
 			<div class="row">
 
@@ -146,9 +146,105 @@
 				</div>
 
 				<div class="right">
-					<p>Members JODC!</p>
-					<p>Updating Soon...</p>
-					<p>Stay connected with us!</p>
+					<a class="card" href="https://github.com/Ankk98">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Ankit Khandelwal</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/Ankurk99">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Knownymous</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/ThomasSmithIRE">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Thomas Smith</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/triptishukla">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Tripti Shukla</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/prox07">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Pranshu Srivastava</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/weirdwiz">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Divyansh Kamboj</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/kcclemo">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Kirk Clemons</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/Imoleayo98">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Adebiyi Imoleayo</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/MikeDuister">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Mike Duister</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/LiamNorman">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Liam Norman</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
+					<a class="card" href="https://github.com/im-gozmit">
+						<div class="card-content front">
+							<div class="image"></div>
+							<div class="name">Mayank</div>
+						</div>
+						<div class="card-content back">
+							More information here
+						</div>
+					</a>
 				</div>
 
 			</div>
@@ -241,6 +337,16 @@
 
 	</div>
 
+<script>
+	let members = document.querySelectorAll('.members .card');
+	if (members) {
+		members.forEach(card => {
+			let image = card.querySelector('.image');
+			let username = card.href.split('https://github.com/')[1];
+			image.innerHTML = `<img class="image" src="https://avatars.githubusercontent.com/${username}"/>`;
+		});
+	}
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
 <script src="js/custom.js"></script>
 </body>
