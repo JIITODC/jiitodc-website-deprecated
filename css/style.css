@@ -160,12 +160,23 @@ p {
 	justify-content: center;
 	overflow: auto;
 }
-.members .right {
+/*Contributors*/
+.contributors {
+	width: 100%;
+	height: 800px;
 	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	overflow: auto;
+}
+.contributors .row {
+	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
+	padding-left: 20px;
 	perspective: 1000px;
 }
-.members .card {
+.contributors .card {
 	background: #FFFFFF;
 	border-radius: 5px;
 	font-size: 12px;
@@ -178,11 +189,11 @@ p {
 	transform-style: preserve-3d;
 	transition: all 1s ease-in-out;
 }
-.members .card:hover {
+.contributors .card:hover {
 	cursor: pointer;
 	transform: rotateY(180deg);
 }
-.members .card-content {
+.contributors .card-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -194,18 +205,18 @@ p {
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
-.members .card-content.front {
+.contributors .card-content.front {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.members .card-content.back {
+.contributors .card-content.back {
 	color: #000000;
 	padding: 10px;
 	transform: rotateY(180deg);
 }
-.members .name {
+.contributors .name {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -214,11 +225,11 @@ p {
 	padding: 5px;
 	text-decoration: none;
 }
-.members .image {
+.contributors .image {
 	width: 130px;
 	height: 130px;
 }
-.members .image img {
+.contributors .image img {
 	object-fit: cover;
 	border-radius: 5px 5px 0 0;
 	z-index: 1;
