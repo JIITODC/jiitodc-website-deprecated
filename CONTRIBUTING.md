@@ -16,7 +16,8 @@ Please note we have a code of conduct, please follow **code-of-conduct.md** in a
 
 [Pull request Workflow](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 
-
-
+## Join Us
+Discuss anything at:
+[Our Chat Platform](https://discord.gg/YMFm7xs)
 
 
