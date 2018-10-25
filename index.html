@@ -161,125 +161,114 @@
 			<div class="row">
 
 				<div class="card-container">
-					<a class="card" href="https://github.com/Ankk98">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Ankit Khandelwal</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/Ankk98">Ankit Khandelwal</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/Ankurk99">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Knownymous</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/Ankurk99">Knownymous</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/ThomasSmithIRE">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Thomas Smith</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/ThomasSmithIRE">Thomas Smith</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/triptishukla">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Tripti Shukla</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/triptishukla">Tripti Shukla</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/prox07">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Pranshu Srivastava</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/prox07">Pranshu Srivastava</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/weirdwiz">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Divyansh Kamboj</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/weirdwiz">Divyansh Kamboj</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/kcclemo">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Kirk Clemons</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/kcclemo">Kirk Clemons</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/Imoleayo98">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Adebiyi Imoleayo</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/Imoleayo98">Adebiyi Imoleayo</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/MikeDuister">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Mike Duister</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/MikeDuister">Mike Duister</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/LiamNorman">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Liam Norman</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/LiamNorman">Liam Norman</a>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="card-container">
-					<a class="card" href="https://github.com/im-gozmit">
+					<div class="card">
 						<div class="card-content front">
 							<div class="image"></div>
-							<div class="name">Mayank</div>
 						</div>
 						<div class="card-content back">
-							More information here
+							<a class="name" href="https://github.com/im-gozmit">Mayank</a>
 						</div>
-					</a>
+					</div>
 				</div>
 
 			</div>
@@ -372,11 +361,19 @@
 	</div>
 
 <script>
-	let members = document.querySelectorAll('.contributors .card');
-	if (members) {
-		members.forEach(card => {
+	let contribs = document.querySelectorAll('.contributors .card');
+	if (contribs) {
+		contribs.forEach(card => {
+			card.addEventListener('click', () => {
+				card.classList.toggle('flipped');
+			});
+			card.parentElement.addEventListener('mouseleave', () => {
+				if (card.classList.contains('flipped')) {
+					card.classList.remove('flipped');
+				}
+			});
 			let image = card.querySelector('.image');
-			let username = card.href.split('https://github.com/')[1];
+			let username = card.querySelector('.name').href.split('https://github.com/')[1];
 			image.innerHTML = `<img class="image" src="https://avatars.githubusercontent.com/${username}"/>`;
 		});
 	}
