@@ -26,16 +26,22 @@ p {
 }
 
 .topnav {
-	background-color: #333;
+	border-radius: 0 0 7px 7px;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: gray;
 	overflow: hidden;
-	width: 100%;
+	max-width: 100%;
 	position: fixed;
 	top: 0;
-	text-align: center;
+	right: 98px;
 	z-index: 1;
+	margin: auto;
 }
 
 .topnav a {
+	align-content: center;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -99,15 +105,7 @@ p {
 
 /*About*/
 .about {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-/*News*/
-.news {
+	background-color: #4d5359;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -117,6 +115,7 @@ p {
 }
 /*Projects*/
 .projects {
+	background-color: #635380;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -126,6 +125,7 @@ p {
 }
 /*Events*/
 .events {
+	background-color: #2a9d8f;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -135,6 +135,7 @@ p {
 }
 /*Resources*/
 .resources {
+	background-color: #d3d5d4;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -144,6 +145,7 @@ p {
 }
 /*Code of conduct*/
 .codeofconduct {
+	background-color: #d97c60;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -153,93 +155,17 @@ p {
 }
 /*Members*/
 .members {
+	background-color: #9395d3;
 	width: 100%;
 	height: 800px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
-}
-/*Contributors*/
-.contributors {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	overflow: auto;
-}
-.contributors .row {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding-left: 20px;
-}
-.contributors .card-container {
-	position: relative;
-	width: 100px;
-	height: 100px;
-	margin: 10px;
-	border-radius: 5px;
-	perspective: 1000px;
-}
-.contributors .card {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-	border-radius: 5px;
-	transform-style: preserve-3d;
-	transition: 0.4s;
-}
-.contributors .card:hover {
-	box-shadow: 0 0 10px rgba(255,255,255,0.60);
-}
-.contributors .card.flipped {
-	transform: rotateY(180deg);
-}
-.contributors .card-content {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
-}
-.contributors .card-content.front {
-	transform: rotateY(0deg);
-	z-index: 2;
-}
-.contributors .card-content.back {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background: #FFFFFF;
-	padding: 10px;
-	transform: rotateY(180deg);
-}
-.contributors .name {
-	color: #999999;
-	font-size: 12px;
-	word-wrap: break-word;
-	text-decoration: none;
-}
-.contributors .name:hover {
-	color: #000000;
-}
-.contributors .image {
-	width: 100px;
-	height: 100px;
-	border-radius: 5px;
-}
-.contributors .image img {
-	object-fit: cover;
-	border-radius: 5px;
-	z-index: 1;
 }
 /*How We Started*/
 .started {
+	background-color: #354f52;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -249,6 +175,7 @@ p {
 }
 /*Vision*/
 .vision {
+	background-color: #372549;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -258,6 +185,7 @@ p {
 }
 /*Gallery*/
 .gallery {
+	background-color: #33658a;
 	width: 100%;
 	height: 800px;
 	display: flex;
@@ -267,6 +195,7 @@ p {
 }
 /*Contact*/
 .contact {
+	background-color: #011627;
 	width: 100%;
 	height: 500px;
 	display: flex;
@@ -337,13 +266,31 @@ p {
 
 /*Footer*/
 footer {
+	color: white;
+	background-color: #010c16;
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .font-icon {
   font-size: 30px;
   color: #fff;
   padding: 10px;
+}
+p{
+	color: #79c99e;
+}
+.madewith{
+	display: block;
+	position: absolute;
+	left: 1.5em;
+	bottom: .5em;
+}
+.madewith a{
+	text-decoration: none;
+	color: white;
+}
+.notmadewith{
+	display: block;
+	overflow: hidden;
 }
