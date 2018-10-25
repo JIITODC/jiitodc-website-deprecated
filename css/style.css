@@ -17,6 +17,12 @@ p {
 	color: #ffffff;
 }
 
+/* Grid Container */
+.container {
+	display: grid;
+	grid-template-rows: repeat(10, 1fr);
+}
+
 /*Header*/
 .header {
 	font-family: 'Cabin Sketch', cursive;
