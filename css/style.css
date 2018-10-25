@@ -177,8 +177,8 @@ p {
 }
 .contributors .card-container {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	margin: 10px;
 	border-radius: 5px;
 	perspective: 1000px;
@@ -221,14 +221,16 @@ p {
 }
 .contributors .name {
 	color: #999999;
+	font-size: 12px;
+	word-wrap: break-word;
 	text-decoration: none;
 }
 .contributors .name:hover {
 	color: #000000;
 }
 .contributors .image {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	border-radius: 5px;
 }
 .contributors .image img {
