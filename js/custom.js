@@ -14,10 +14,8 @@ typewriter.typeString('JODC')
 const closeButton = document.getElementById("close");
 const topNav = document.querySelector('.topnav');
 
-closeButton.addEventListener("click", function () {
-    if (topNav.style.visibility === "hidden") {
+closeButton.addEventListener("mouseenter", function () {
     topNav.style.visibility = "visible";
-    } else {
-        topNav.style.visibility = "hidden";
-    }
 });
+
+closeButton.addEventListener("mouseleave", () => (topNav.style.visibility = "hidden"));
