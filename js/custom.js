@@ -11,3 +11,13 @@ typewriter.typeString('JODC')
 
     .start();
    
+const closeButton = document.getElementById("close");
+const topNav = document.querySelector('.topnav');
+
+closeButton.addEventListener("click", function () {
+    if (topNav.style.visibility === "hidden") {
+    topNav.style.visibility = "visible";
+    } else {
+        topNav.style.visibility = "hidden";
+    }
+});
