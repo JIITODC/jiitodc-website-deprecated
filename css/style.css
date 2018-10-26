@@ -331,6 +331,7 @@ p {
   display: block;
   overflow: hidden;
 }
+/* This class is applied to the nav when clicking the close menu button and must be place AFTER media queries */
 .navShow {
 	visibility: visible;
 }
