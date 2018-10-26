@@ -26,6 +26,10 @@ p {
 #close {
 	color: white;
 	font-size: 2em;
+	text-align: end;
+	position: fixed;
+	z-index: 2;
+	display: none;
 }
 /*Header*/
 .header {
@@ -38,16 +42,16 @@ p {
 .topnav {
 	border-radius: 0 0 7px 7px;
 	display: block;
-	margin-left: 20px;
-	margin-right: 20px;
+	/* margin-left: 20px; */
+	/* margin-right: 20px; */
 	background-color: gray;
 	overflow: hidden;
-	max-width: 100%;
+	width: 100%;
 	position: fixed;
 	top: 0;
-	right: 98px;
+	/* right: 98px; */
 	z-index: 1;
-	margin: auto;
+	/* margin: auto; */
 }
 
 .topnav a {
@@ -240,7 +244,7 @@ p {
 
 .octocat:hover{
 	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
-}
+} 
 @media screen and (min-width: 401px) {
 	.left {
 		flex: 50%;
