@@ -34,9 +34,6 @@ p {
   transform: scale(1.05);
 }
 
-#navShow {
-  visibility: "visible";
-}
 /*Header*/
 .header {
   font-family: "Cabin Sketch", cursive;
@@ -333,4 +330,7 @@ p {
 .notmadewith {
   display: block;
   overflow: hidden;
+}
+.navShow {
+	visibility: visible;
 }

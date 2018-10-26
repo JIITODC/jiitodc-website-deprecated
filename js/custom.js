@@ -15,10 +15,6 @@ typewriter
 const closeButton = document.getElementById("close");
 const topNav = document.querySelector(".topnav");
 
-closeButton.addEventListener("click", () => {
-  if (topNav.style.visibility === "hidden") {
-    topNav.style.visibility = "visible";
-  } else {
-    topNav.style.visibility = "hidden";
-  }
-});
+closeButton.addEventListener('click', function() {
+    topNav.classList.toggle('navShow');
+})
