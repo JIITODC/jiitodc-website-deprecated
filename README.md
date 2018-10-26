@@ -3,7 +3,6 @@
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![LinkedIn profile](https://in.linkedin.com/company/jodc)
 
 A simple website made for JODC using HTML, CSS and JavaScript.
 
