@@ -256,6 +256,16 @@ p {
 	}
 }
 
+@media screen and (max-width: 520px) {
+	.topnav {
+		visibility: hidden;
+	}
+
+	#close {
+		display: block;
+	}
+}
+
 @media screen and (min-width: 701px) {
 	.left {
 		flex: 33%;
