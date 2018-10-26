@@ -40,7 +40,9 @@ p {
 
 .topnav {
 	border-radius: 0 0 7px 7px;
-	display: block;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 	/* margin-left: 20px; */
 	/* margin-right: 20px; */
 	background-color: gray;
