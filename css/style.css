@@ -26,8 +26,7 @@ p {
 #close {
 	color: white;
 	font-size: 2em;
-	text-align: end;
-	position: fixed;
+	/* position: fixed; */
 	z-index: 2;
 	display: none;
 }
