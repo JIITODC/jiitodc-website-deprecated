@@ -250,6 +250,17 @@ p {
 .octocat:hover {
   -webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 }
+@media screen and (max-width: 400px) {
+  .topnav {
+    height: 200px;
+    top: 0;
+  }
+
+  .topnav a {
+    font-size: 12px;
+  }
+}
+
 @media screen and (min-width: 401px) {
   .left {
     flex: 50%;
@@ -261,15 +272,15 @@ p {
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 516px) {
   .topnav {
-    visibility: hidden;
+	visibility: hidden;
+	height: 150px;
   }
   #close {
     z-index: 2;
   }
 }
-
 
 @media screen and (min-width: 701px) {
   .left {
