@@ -43,16 +43,12 @@ p {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	/* margin-left: 20px; */
-	/* margin-right: 20px; */
 	background-color: gray;
 	overflow: hidden;
 	width: 100%;
 	position: fixed;
 	top: 0;
-	/* right: 98px; */
 	z-index: 1;
-	/* margin: auto; */
 }
 
 .topnav a {
