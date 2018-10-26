@@ -19,9 +19,9 @@ p {
 /* Close Button Styling */
 #close {
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   position: fixed;
-  top: 10px;
+  top: 9px;
   left: 15px;
   border: 1px solid rgba(49, 49, 49, 0.6);
   padding: 5px;
