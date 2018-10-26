@@ -23,6 +23,10 @@ p {
 	grid-template-rows: repeat(10, 1fr);
 }
 
+#close {
+	color: white;
+	font-size: 2em;
+}
 /*Header*/
 .header {
 	font-family: 'Cabin Sketch', cursive;
