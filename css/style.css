@@ -8,7 +8,7 @@ html {
 }
 body {
 	position: relative;
-	background: #222;
+	background: rgb(17, 16, 16);
 	font-family: 'Andale Mono', sans-serif;
 	font-size: 18px;
 }
@@ -30,7 +30,7 @@ p {
 	display: block;
 	margin-left: 20px;
 	margin-right: 20px;
-	background-color: gray;
+	background-color: rgb(83, 81, 81);
 	overflow: hidden;
 	max-width: 100%;
 	position: fixed;
@@ -67,7 +67,7 @@ p {
 
 .intro {
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -105,9 +105,9 @@ p {
 
 /*About*/
 .about {
-	background-color: #4d5359;
+	background-color: #1b0315;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -115,93 +115,102 @@ p {
 }
 /*Projects*/
 .projects {
-	background-color: #635380;
+	background-color: #02534a ;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Events*/
 .events {
-	background-color: #2a9d8f;
+	background-color: #116466;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Resources*/
 .resources {
-	background-color: #d3d5d4;
+	background-color: #047c40;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Code of conduct*/
 .codeofconduct {
-	background-color: #d97c60;
+	background-color: #46c220dc;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Members*/
 .members {
-	background-color: #9395d3;
+	background-color: #be870f;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*How We Started*/
 .started {
-	background-color: #354f52;
+	background-color: #f19010;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Vision*/
 .vision {
-	background-color: #372549;
+	background-color: #5e87e098;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Gallery*/
 .gallery {
 	background-color: #33658a;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 /*Contact*/
 .contact {
 	background-color: #011627;
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
+	padding: 20px;
 }
 
 .row {
