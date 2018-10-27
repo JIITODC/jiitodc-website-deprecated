@@ -97,6 +97,7 @@ p {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  margin-top: 70px;
 }
 .intro svg#leaf {
   display: block;
