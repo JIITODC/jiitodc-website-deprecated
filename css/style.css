@@ -33,7 +33,14 @@ p {
   color: rgba(0, 231, 255, 0.8);
   transform: scale(1.05);
 }
-
+.fa-arrows-alt-v {
+  color: white;
+  text-align: end;
+  font-size: 1.5em;
+}
+#scroll {
+  text-align: end;
+}
 /*Header*/
 .header {
   font-family: "Cabin Sketch", cursive;
