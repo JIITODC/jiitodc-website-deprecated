@@ -266,6 +266,12 @@ p {
   .topnav a {
     font-size: 12px;
   }
+  .about {
+    height: 650px;
+  }
+  #scroll {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (min-width: 401px) {
