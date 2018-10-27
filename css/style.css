@@ -35,7 +35,7 @@ p {
 	max-width: 100%;
 	position: fixed;
 	top: 0;
-	right: 98px;
+	right: 30px;
 	z-index: 1;
 	margin: auto;
 }
@@ -126,6 +126,16 @@ p {
 /*Events*/
 .events {
 	background-color: #2a9d8f;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	overflow: auto;
+}
+/*Past Events*/
+.pastevents {
+	background-color: #6d6d67;
 	width: 100%;
 	height: 800px;
 	display: flex;
