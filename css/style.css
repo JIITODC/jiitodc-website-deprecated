@@ -54,6 +54,7 @@ p {
 .topnav a:hover {
     background-color: #ddd;
 	color: black;
+	transition:0.8s;
 }
 
 /* Add color to the active link */
