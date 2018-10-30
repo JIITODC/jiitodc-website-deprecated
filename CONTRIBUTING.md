@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via GitHub issue or at our discord channel dedicated for this purpose before making a change. 
+When contributing to this repository, please **first discuss the change you wish to make via GitHub issue or at our discord channel** dedicated for this purpose before making a change. 
 
 Please note we have a code of conduct, please follow **code-of-conduct.md** in all your interactions with JODC.
 
