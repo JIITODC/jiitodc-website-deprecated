@@ -1,6 +1,6 @@
-var title = document.getElementById("head-text");
+const title = document.getElementById("head-text");
 
-var typewriter = new Typewriter(title, {
+const typewriter = new Typewriter(title, {
   loop: true,
 });
 
@@ -12,9 +12,12 @@ typewriter
 
   .start();
 
-const closeButton = document.getElementById("close");
 const topNav = document.querySelector(".topnav");
-
-closeButton.addEventListener('click', function() {
-    topNav.classList.toggle('navShow');
-})
+topNav.addEventListener('click', function(event) {
+  if (topNav.className === "topnav") {
+      topNav.className += " responsive";
+  }
+  else {
+      topNav.className = "topnav";
+  }
+});
