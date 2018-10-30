@@ -1,11 +1,13 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+
 html {
 	scroll-behavior: smooth;
 }
+
 body {
 	position: relative;
 	background:linear-gradient(180deg,#0d0d0e,#4b073a);
@@ -18,6 +20,7 @@ p {
 }
 
 /*Header*/
+
 .header {
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 300%;
@@ -36,32 +39,44 @@ p {
 	max-width: 100%;
 	position: fixed;
 	top: 0;
-	right: 98px;
+	text-align: center;
+	z-index: 1;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  right: 98px;
 	z-index: 1;
 	margin: auto;
 }
 
 .topnav a {
 	align-content: center;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
 	font-size: 18px;
 }
 
 /* Change the color of links on hover */
+
 .topnav a:hover {
-    background-color: #ddd;
+	background-color: #ddd;
 	color: black;
 	transition:0.8s;
 }
 
 /* Add color to the active link */
+
 .topnav a:active {
-    background-color: black;
-    color: white;
+	background-color: black;
+	color: white;
 }
 
 /* Hide hamburger icon */
@@ -106,6 +121,7 @@ p {
 	flex-flow: column nowrap;
 	justify-content: center;
 }
+
 .intro svg#leaf {
 	display: block;
 	width: 240px;
@@ -127,7 +143,7 @@ p {
 }
 
 #leaf {
-	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
@@ -138,16 +154,29 @@ p {
 }
 
 /*About*/
+
 .about {
 	background:linear-gradient(180deg,#1b0315,#02534a);
 	width: 100%;
-	height: 700px;
+	height: 800px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	overflow: auto;
 }
+
+/*News*/
+.news {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	overflow: auto;
+}
+
 /*Projects*/
+
 .projects {
 	background:linear-gradient(180deg,#02534a,#116466);
 	width: 100%;
@@ -158,7 +187,9 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*Events*/
+
 .events {
 	background:linear-gradient(180deg,#116466,#047c40);
 	width: 100%;
@@ -169,7 +200,9 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*Resources*/
+
 .resources {
 	background:linear-gradient(180deg,#047c40,#46c220dc);
 	width: 100%;
@@ -180,7 +213,9 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*Code of conduct*/
+
 .codeofconduct {
 	background:linear-gradient(180deg,#46c220dc,#be870f);
 	width: 100%;
@@ -191,7 +226,9 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*Members*/
+
 .members {
 	background:linear-gradient(180deg,#be870f,#f19010);
 	width: 100%;
@@ -202,7 +239,9 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*How We Started*/
+
 .started {
 	background:linear-gradient(180deg,#f19010,#5e87e098);
 	width: 100%;
@@ -213,7 +252,9 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*Vision*/
+
 .vision {
 	background:linear-gradient(180deg,#5e87e098,#33658a);
 	width: 100%;
@@ -224,10 +265,22 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
 /*Gallery*/
+
 .gallery {
 	background:linear-gradient(180deg,#33658a,#011627);
 	width: 100%;
+	position: relative;
+}
+
+.gallery-container {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
 	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
@@ -235,7 +288,22 @@ p {
 	overflow: auto;
 	padding: 20px;
 }
+
+.gallery-container .img-wrapper {
+	margin-right: 0.312em;
+}
+
+@media screen and (max-width: 40em) {
+	.gallery-container {
+		justify-content: center;
+	}
+	.img-wrapper {
+		margin: 0;
+	}
+}
+
 /*Contact*/
+
 .contact {
 	background-color: #011627;
 	width: 100%;
@@ -265,16 +333,17 @@ p {
 
 .octocat {
 	width: 100%;
-	-webkit-filter: drop-shadow(0px 0px 15px rgba(255,255,255,0.80));
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.80));
 	-webkit-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 
-.octocat:hover{
+.octocat:hover {
 	-webkit-filter: drop-shadow(0px 0px 82px rgba(0, 231, 255, 0.8));
 }
-@media screen and (min-width: 401px) {
+
+@media screen and (min-width: 40em) {
 	.left {
 		flex: 50%;
 		padding: 5px;
@@ -308,17 +377,19 @@ p {
 }
 
 /*Footer*/
+
 footer {
+	display: flex;
+	justify-content: center;
+	text-align: center;
 	color: white;
 	background-color: #010c16;
-  display: flex;
-  justify-content: center;
 }
 
 .font-icon {
-  font-size: 30px;
-  color: #fff;
-  padding: 10px;
+	font-size: 30px;
+	color: #fff;
+	padding: 10px;
 }
 p{
 	color: #79c99e;
