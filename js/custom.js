@@ -1,16 +1,23 @@
-var title = document.getElementById('head-text');
+const title = document.getElementById("head-text");
 
-var typewriter = new Typewriter(title, {
-    loop: true
+const typewriter = new Typewriter(title, {
+  loop: true,
 });
 
-typewriter.typeString('JODC')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('JIIT Open Dev Circle ')
+typewriter
+  .typeString("JODC")
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString("JIIT Open Dev Circle ")
 
-    .start();
-    
-AOS.init({
-  duration: 1200,
+  .start();
+
+const topNav = document.querySelector(".topnav");
+topNav.addEventListener('click', function(event) {
+  if (topNav.className === "topnav") {
+      topNav.className += " responsive";
+  }
+  else {
+      topNav.className = "topnav";
+  }
 });
