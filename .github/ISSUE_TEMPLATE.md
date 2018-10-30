@@ -1,17 +1,20 @@
-## Expected Behavior
-
-
 ## Actual Behavior
+   
+   _A brief but clear explaination of the current behavior of the issue_
 
 
-## Steps to Reproduce the Problem
+## Expected Behavior
+   
+   _A brief but clear explaination of the expected behavior of the issue_
 
-  1.
-  1.
-  1.
 
-## Specifications
+## Proposed steps
 
-  - Version:
-  - Platform:
-  - Subsystem:
+
+
+## Screenshots
+
+**Note that screenshots regarding the issue must be attached whenever possible**
+  
+ 
+_**PLEASE BE AWARE THAT ANY ISSUE NOT FOLLOWING THE AFOREMENTIONED FORMAT SHALL BE CLOSED IMMEDIATELY**_
